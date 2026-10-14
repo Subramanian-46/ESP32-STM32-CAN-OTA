@@ -40,8 +40,8 @@
 // WIFI CONFIGURATION
 // ============================================================
 
-const char* WIFI_SSID = "FTTH-BSNL-MURALI";
-const char* WIFI_PASSWORD = "murali9549";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
 
 // Your laptop IP address
 // Python server:
@@ -51,7 +51,7 @@ const char* WIFI_PASSWORD = "murali9549";
 // python -m http.server 8000
 //
 const char* FIRMWARE_URL =
-    "http://192.168.1.4:8000/firmware.bin";
+    "http://:8000/firmware.bin";
 
 
 // ============================================================
